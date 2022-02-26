@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNGActivities" parallel="false">
+
+
+<!-- <test name="Test">
+        <parameter name="username" value="admin"/>
+        <parameter name="password" value="password"/>
+        <classes>
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity6"/>
+        </classes>
+    </test> -->
+    
+<test name="testngTest">    
+    <classes>
+          <class name="com.jobboard.mavenproject.FST_TestNG.Activity1" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity2" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity3" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity4_Demo1" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity4_Demo2" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity5" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity6" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity7" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity9" />
+            <class name="com.jobboard.mavenproject.FST_TestNG.Activity10" />
+        </classes>
+</test>
+</suite>
